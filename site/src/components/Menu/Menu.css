@@ -1,5 +1,6 @@
 .Menu {
   z-index: 1;
+  box-sizing: border-box;
 }
 
 .Menu .toggler {
