@@ -1,8 +1,12 @@
 import React from 'react'
+import Menu from '../Menu/Menu'
 import './Nav.css'
-function Nav() {
+function Nav(props) {
   return (
-    <div className='Nav'>Nav</div>
+    <div className='Nav'>
+      <h1>{props.title}</h1>
+      <Menu></Menu>
+    </div>
   )
 }
 

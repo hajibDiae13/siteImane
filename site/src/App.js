@@ -1,14 +1,17 @@
-import {Router, Route, Link} from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Nav from './components/Nav/Nav';
 function App() {
   return (
-    <div className="App">
-      {/* <Router>
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-      </Router> */}
-
+    <div className='App'>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Nav title='Home'></Nav>} />
+          <Route path='/msr' element={<Nav title='Msr'></Nav>} />
+          <Route path='/imane' element={<Nav title='Imane'></Nav>} />
+          <Route path='/contact' element={<Nav title='Contact'></Nav>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
