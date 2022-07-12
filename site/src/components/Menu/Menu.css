@@ -1,12 +1,11 @@
 .Menu {
   z-index: 1;
-  box-sizing: border-box;
 }
 
 .Menu .toggler {
   position: absolute;
   top: 32px;
-  right: 128px;
+  right: 32px;
   z-index: 2;
   cursor: pointer;
   width: 50px;
@@ -17,7 +16,7 @@
 .Menu .Hamburger {
   position: absolute;
   top: 32px;
-  right: 128px;
+  right: 32px;
   z-index: 1;
   width: 60px;
   height: 40px;
@@ -83,7 +82,7 @@
 
 .Menu .Menu-sub > div {
   background-color: white;
-  border-radius: 50%px;
+  border-radius: 50%;
   width: 200vw;
   height: 200vw;
   display: flex;
