@@ -1,0 +1,76 @@
+.grid {
+  display: grid;
+  grid-template-columns: 63% 37%;
+  box-sizing: border-box;
+  z-index: -1;
+}
+
+.reverse-grid {
+  display: grid;
+  grid-template-columns: 37% 63%;
+  box-sizing: border-box;
+  z-index: -1;
+}
+
+.text-container32 {
+  padding: 4vw;
+  box-sizing: border-box;
+  font-size: 2vw;
+}
+
+.text-container {
+  padding: 32px;
+  padding-top: 128px;
+  box-sizing: border-box;
+  font-size: 1.5vw;
+}
+
+.text-container > h2 {
+  font-size: 3vw;
+}
+
+.text-container64 {
+  padding: 96px;
+  box-sizing: border-box;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.bigfont {
+  font-size: 100px;
+}
+
+.hugefont {
+  font-size: 188px;
+}
+
+.biggerFont {
+  font-size: 150px;
+}
+
+.background {
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+}
+
+.background-image {
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  aspect-ratio: 1;
+}
+
+.offset {
+  position: relative;
+  top: -64px;
+}
+
+.offsetX2 {
+  position: relative;
+  top: -128px;
+}

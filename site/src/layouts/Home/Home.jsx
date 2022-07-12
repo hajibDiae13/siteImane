@@ -1,9 +1,14 @@
-import React from 'react'
-import './Home.css'
+import React from 'react';
+import Nav from '../../components/Nav/Nav';
+import './Home.css';
+
+import Footer from '../../components/Footer/Footer';
 function Home() {
   return (
-    <div className='Home'>Home</div>
-  )
+    <div className='Home'>
+      <Nav title='Home'></Nav>
+    </div>
+  );
 }
 
-export default Home
+export default Home;
